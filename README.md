@@ -1,12 +1,14 @@
 # Wedding / Event table planner
 
-## Dependencies
+## Dependencies (ubuntu)
 * python
 * graphviz 
 * pygraphviz
-    * install via:
-         > sudo apt install libgraphviz-dev python-pip
-         > pip install pygraphviz
+    * install via: 
+    
+      `sudo apt install libgraphviz-dev python-pip` 
+      
+      `pip install pygraphviz`
 
 ## csv format
     <person(s) A>, <number of persons>, <person perference 1>, <person perference 2>, ...
