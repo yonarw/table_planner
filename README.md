@@ -15,8 +15,10 @@
  
 ### table setup
 change the lines:
+
     num_tables = 3
     places_per_table = 5
+  
 in table_planner.py to match your needs.
  
  
