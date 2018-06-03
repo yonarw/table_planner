@@ -126,7 +126,7 @@ if __name__ == "__main__":
     print("nodes = ",len(PG),"edges = ",num_edges)
 
     G.layout(prog="dot")
-    G.draw("graph.png")
+    G.draw("party_dependencies.png")
 
     #for x in PG:
     #    print(x,"(",PG[x][0],")","->",PG[x][1])
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     tb = 0
     for t in T_best:
         for ppl in t[1]:
-            GT.add_edge("Tisch " + str(tb), ppl)
+            GT.add_edge("table " + str(tb), ppl)
         tb += 1
     GT.layout("fdp")
     GT.draw("tables.png")
